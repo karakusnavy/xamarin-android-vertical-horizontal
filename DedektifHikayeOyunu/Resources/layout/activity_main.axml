@@ -1,0 +1,262 @@
+	<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_above="@id/linearLayout1"
+			android:id="@+id/linearLayout3">
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView1" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout2" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 1"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button1" />
+		</LinearLayout>
+			<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout2">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView2" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout3" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView3" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button2" />
+		</LinearLayout>
+			<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView3" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout4" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 3"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView3" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView4" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button3" />
+		</LinearLayout>
+			<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout4">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView4" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout5" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 4"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView4" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView5" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button4" />
+		</LinearLayout>
+			<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout5">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView5" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout6" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 5"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView5" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView6" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button5" />
+		</LinearLayout>
+			<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"		
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_marginTop="30dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout6">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/ımageView6" />
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"			
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout7" >
+				<TextView
+					android:text="Dedektif Hikaye Oyunu 6"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView6" />
+				<TextView
+					android:text="Bu bölümde dedektif oluyorsunuz."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView7" />
+			</LinearLayout>
+			<Button
+				android:text=">"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:textSize="20dp"
+				android:layout_gravity="end"
+				android:id="@+id/button6" />
+		</LinearLayout>
+			</LinearLayout>
+	</RelativeLayout>
